@@ -30,3 +30,28 @@ engineers in:
 - **Evaluation:** VerilogEval + OpenRTL-Eval
 
 ## 📁 Repository Structure
+openrtl-ai/
+├── dataset/          # Data collection scripts
+├── training/         # Fine-tuning configs
+├── evaluation/       # Benchmark scripts
+├── examples/         # Sample RTL + UVM outputs
+└── docs/             # Technical documentation
+
+## 📅 Timeline
+- **Month 1:** Dataset collection and curation
+- **Month 2:** 7B baseline fine-tuning
+- **Month 3:** GRPO alignment
+- **Month 4-5:** 30B scale-up
+- **Month 6:** Public release + arXiv paper
+
+## 🤝 Contributing
+Contributions welcome — especially:
+- RTL/UVM dataset contributions
+- Domain expert validation
+- Evaluation benchmark design
+
+## 📜 License
+Apache 2.0 — fully open source
+
+## 🙏 Acknowledgements
+Built using the Hugging Face ecosystem and ml-intern.
